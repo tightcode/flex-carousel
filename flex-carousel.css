@@ -1,21 +1,21 @@
-/* Flex Carousel 0.1.1 ( https://github.com/tightcode/flex-carousel ) */
+/* Flex Carousel 0.1.2 ( https://github.com/tightcode/flex-carousel ) */
 @media (max-width: 1919.98px) {
-  div.img {
+  .carousel-item .img {
     display: flex;
     justify-content: center;
     overflow: hidden;
   }
-  img {
+  .carousel-item .img img {
     width: auto;
     flex: none;
   }
 }
 @media (min-width: 1920px) {
-  div.img {
+  .carousel-item .img {
     display: block;
     justify-content: normal;
   }
-  img {
+  .carousel-item .img img {
     height: auto;
     width: 100%;
     min-width: 100%;
